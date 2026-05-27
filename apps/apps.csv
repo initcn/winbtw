@@ -1,0 +1,56 @@
+name,link,packagename,category,description
+AMD Software,https://www.amd.com/en/products/software/adrenalin.html,,Driver,Radeon graphics driver and GPU management suite.
+Android SDK Platform-Tools,https://developer.android.com/tools/releases/platform-tools,Google.PlatformTools,Developer Tools,Android debugging and device communication tools (ADB/Fastboot).
+Android Studio,https://developer.android.com/studio,Google.AndroidStudio,IDE,Official Android app development IDE.
+Arduino IDE 2.3.8,https://www.arduino.cc/en/software,ArduinoSA.IDE.stable,IDE,IDE for programming Arduino boards.
+aria2,https://github.com/aria2/aria2,aria2.aria2,Download Manager,Lightweight multi-protocol command-line download utility.
+Brave,https://brave.com,Brave.Brave,Browser,Privacy-focused Chromium-based web browser.
+Bun,https://bun.sh,Oven-sh.Bun,Runtime,Fast JavaScript runtime and package manager.
+Chrome Remote Desktop Host,https://remotedesktop.google.com,Google.ChromeRemoteDesktopHost,Remote Access,Enables remote access to your computer through Chrome Remote Desktop.
+CP210x USB to UART Driver,https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads,,Driver,USB-to-serial driver package for CP210x USB to UART.
+Edit,https://github.com/microsoft/edit,Microsoft.Edit,Editor,Microsoft text editing utility/application.
+ExplorerPatcher,https://github.com/valinet/ExplorerPatcher,valinet.ExplorerPatcher,Customization,Restores classic Windows taskbar and Start menu behavior.
+fastfetch,https://github.com/fastfetch-cli/fastfetch,fastfetch-cli.fastfetch,CLI Tool,Command-line system information display tool.
+Git,https://git-scm.com,Git.Git,Developer Tools,Distributed version control system.
+GitHub Desktop,https://desktop.github.com,GitHub.GitHubDesktop,Developer Tools,GUI application for managing GitHub repositories.
+Google Chrome,https://www.google.com/chrome,Google.Chrome,Browser,Popular Chromium-based web browser by Google.
+Google Drive,https://www.google.com/drive,Google.GoogleDrive,Cloud Storage,Cloud storage synchronization and backup utility.
+HandBrake 1.11.1,https://handbrake.fr,HandBrake.HandBrake,Media,Open-source video transcoder and converter.
+HWiNFO 64,https://www.hwinfo.com,REALiX.HWiNFO,Monitoring,Advanced hardware monitoring and diagnostics tool.
+IObit Unlocker,https://www.iobit.com/en/iobit-unlocker.php,IObit.IObitUnlocker,Utility,Unlocks and removes files in use by Windows processes.
+Lenovo Legion Toolkit,https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/,LenovoLegionToolkitTeam.LenovoLegionToolkit,System Utility,Lightweight alternative to Lenovo Vantage for Legion laptops.
+Microsoft 365,https://www.office.com/,Microsoft.Office,Productivity,Microsoft Office productivity suite.
+Microsoft Edge,https://microsoft.com/edge,Microsoft.Edge,Browser,Microsoft Chromium-based web browser.
+Microsoft Edge WebView2 Runtime,https://developer.microsoft.com/microsoft-edge/webview2,Microsoft.EdgeWebView2Runtime,Runtime,Runtime for embedding Edge-based web content in apps.
+Microsoft Visual C++ 2010 Redistributable x64,https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist,Microsoft.VCRedist.2010.x64,Runtime,Runtime libraries required by older Windows apps.
+Microsoft Visual C++ 2010 Redistributable x86,https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist,Microsoft.VCRedist.2010.x86,Runtime,Runtime libraries required by older Windows apps.
+Microsoft Visual C++ 2013 Redistributable (x64),https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist,Microsoft.VCRedist.2013.x64,Runtime,Runtime libraries for apps built with Visual Studio 2013.
+Microsoft Visual C++ 2013 Redistributable (x86),https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist,Microsoft.VCRedist.2013.x86,Runtime,Runtime libraries for apps built with Visual Studio 2013.
+Microsoft Visual C++ 2015-2022 Redistributable,https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist,Microsoft.VCRedist.2015+.x64,Runtime,Shared runtime for modern Visual C++ applications.
+Microsoft Visual C++ 2015-2022 Redistributable,https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist,Microsoft.VCRedist.2015+.x86,Runtime,Shared runtime for modern Visual C++ applications.
+Microsoft Visual Studio Code,https://code.visualstudio.com,Microsoft.VisualStudioCode,Editor,Lightweight and extensible code editor.
+Microsoft Windows Desktop Runtime 10.0.8,https://dotnet.microsoft.com/en-us/download/dotnet,Microsoft.DotNet.DesktopRuntime.Preview,Runtime,.NET desktop runtime preview/stable components.
+Microsoft Windows Desktop Runtime 8.0.27,https://dotnet.microsoft.com/en-us/download/dotnet,Microsoft.DotNet.DesktopRuntime.8,Runtime,.NET desktop runtime for Windows applications.
+Microsoft Windows Desktop Runtime 9.0.16,https://dotnet.microsoft.com/en-us/download/dotnet,Microsoft.DotNet.DesktopRuntime.9,Runtime,.NET desktop runtime for Windows applications.
+MPC-HC 2.7.1 (64-bit),https://github.com/clsid2/mpc-hc,clsid2.MPC-HC,Media,Lightweight open-source media player.
+MSYS2,https://www.msys2.org,MSYS2.MSYS2,Developer Tools,Unix-like terminal and package manager for Windows.
+MySQL Server 8.4,https://www.mysql.com,Oracle.MySQL,Database,Relational database server by Oracle.
+MySQL Workbench 8.0 CE,https://www.mysql.com/products/workbench,Oracle.MySQLWorkbench,Database,GUI tool for MySQL database modeling and administration.
+Nilesoft Shell,https://nilesoft.org,Nilesoft.Shell,Customization,Windows context menu customization utility.
+NVIDIA App,https://www.nvidia.com/en-in/software/nvidia-app/,,Driver,"NVIDIA GPU management, optimization, and driver utility."
+Notepad++,https://notepad-plus-plus.org,Notepad++.Notepad++,Editor,Advanced text and source-code editor.
+Obsidian,https://obsidian.md,Obsidian.Obsidian,Notes,Markdown-based knowledge management and note-taking app.
+Paint,https://www.microsoft.com/en-in/windows/paint,9PCFS5B6T72H,Graphics,Basic image editing application included with Windows.
+PowerToys,https://github.com/microsoft/PowerToys,Microsoft.PowerToys,Utility,Collection of productivity utilities for Windows power users.
+Proton VPN,https://protonvpn.com,Proton.ProtonVPN,VPN,Privacy-focused VPN service.
+Python 3.14,https://www.python.org,Python.Python.3.14,Programming Language,Popular programming language interpreter.
+Python 3.14 (64-bit),https://www.python.org,Python.Python.3.14,Programming Language,64-bit installation of the Python programming language.
+qBittorrent,https://www.qbittorrent.org,qBittorrent.qBittorrent,Download Manager,Open-source BitTorrent client.
+scrcpy,https://github.com/Genymobile/scrcpy,Genymobile.scrcpy,Developer Tools,Display and control Android devices from PC via ADB.
+Snipping Tool,https://www.microsoft.com/store/productId/9MZ95KL8MR0L,9MZ95KL8MR0L,Utility,Windows screenshot and screen recording tool.
+Thonny 5.0.0,https://thonny.org,AivarAnnamaa.Thonny,IDE,Beginner-friendly Python IDE.
+UniGetUI,https://github.com/marticliment/UniGetUI,MartiCliment.UniGetUI,Package Manager,GUI frontend for Windows package managers like winget.
+Vantage Commercial,https://support.lenovo.com,9NR5B8GVVM13,System Utility,Lenovo commercial device management and update utility.
+Veikk Tablet,https://www.veikk.com,,Driver,Drivers and utilities for VEIKK drawing tablets.
+Vivaldi,https://vivaldi.com,Vivaldi.Vivaldi,Browser,Highly customizable Chromium-based web browser.
+WizTree 4.31,https://diskanalyzer.com,AntibodySoftware.WizTree,Disk Utility,Fast disk space analyzer for Windows.
