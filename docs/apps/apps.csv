@@ -1,4 +1,5 @@
 name,link,packagename,category,description
+Affinity Studio,https://www.affinity.studio/,Canva.Affinity,Design,Creative suite (Designer Photo Publisher).
 AMD Software,https://www.amd.com/en/products/software/adrenalin.html,,Drivers,Radeon graphics driver and GPU management suite.
 Android SDK Platform-Tools,https://developer.android.com/tools/releases/platform-tools,Google.PlatformTools,Development,Android debugging and device communication tools (ADB/Fastboot).
 Android Studio,https://developer.android.com/studio,Google.AndroidStudio,Development,Official Android app development IDE.
@@ -13,6 +14,7 @@ DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve,,Media,
 Edit,https://github.com/microsoft/edit,Microsoft.Edit,Development,Microsoft text editing utility/application.
 ExplorerPatcher,https://github.com/valinet/ExplorerPatcher,valinet.ExplorerPatcher,Customization,Restores classic Windows taskbar and Start menu behavior.
 fastfetch,https://github.com/fastfetch-cli/fastfetch,fastfetch-cli.fastfetch,System Tools,Command-line system information display tool.
+FluentTaskScheduler,https://github.com/TRGamer-tech/FluentTaskScheduler,TRGamer-tech.FluentTaskScheduler,Development,Lightweight .NET task scheduler library.
 Git,https://git-scm.com,Git.Git,Development,Distributed version control system.
 GitHub Desktop,https://desktop.github.com,GitHub.GitHubDesktop,Development,GUI application for managing GitHub repositories.
 Google Chrome,https://www.google.com/chrome,Google.Chrome,Internet,Popular Chromium-based web browser by Google.
@@ -50,6 +52,7 @@ PowerToys,https://github.com/microsoft/PowerToys,Microsoft.PowerToys,System Tool
 Proton VPN,https://protonvpn.com,Proton.ProtonVPN,Internet,Privacy-focused VPN service.
 Python 3.14,https://www.python.org,Python.Python.3.14,Development,Popular programming language interpreter.
 qBittorrent,https://www.qbittorrent.org,qBittorrent.qBittorrent,File Management,Open-source BitTorrent client.
+Quick Assist, https://apps.microsoft.com/detail/9P7BP5VNWKX5, 9P7BP5VNWKX5, System Tools, Share screen over the internet.
 scrcpy,https://github.com/Genymobile/scrcpy,Genymobile.scrcpy,Development,Display and control Android devices from PC via ADB.
 Snipping Tool,https://www.microsoft.com/store/productId/9MZ95KL8MR0L,9MZ95KL8MR0L,System Tools,Windows screenshot and screen recording tool.
 Sniffnet,https://sniffnet.app/,,Networking,Network packet sniffer and analyzer for monitoring network traffic.
