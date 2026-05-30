@@ -40,7 +40,7 @@ const state = {
 // --- INITIALIZATION ---
 async function init() {
     try {
-        const res = await fetch("../apps.csv");
+        const res = await fetch("apps.csv");
         const text = await res.text();
         
         state.apps = parseCSV(text).sort((a, b) => a.name.localeCompare(b.name));
