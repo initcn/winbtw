@@ -4,124 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Windows BTW</title>
-    <style>
-        :root {
-            --bg-base: #1a1a1a;
-            --bg-element: rgba(255, 255, 255, 0.03);
-            --border-subtle: rgba(255, 255, 255, 0.08);
-            --accent: #60CDFF; /* Win 11 Dark Mode Blue */
-            --accent-hover: #4FB0DF;
-            --text-primary: #FFFFFF;
-            --text-secondary: #AAAAAA;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI Variable', 'Segoe UI', system-ui, sans-serif;
-            background-color: var(--bg-base);
-            /* Subtle Windows 11 style bloom/glow in the background */
-            background-image: radial-gradient(circle at 50% -20%, rgba(96, 205, 255, 0.15), transparent 50%);
-            color: var(--text-primary);
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-
-        .glass-card {
-            background: var(--bg-element);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid var(--border-subtle);
-            padding: 48px;
-            border-radius: 12px;
-            text-align: center;
-            max-width: 400px;
-            width: 90%;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-            animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .logo-placeholder {
-            width: 64px;
-            height: 64px;
-            background: var(--accent);
-            border-radius: 12px;
-            margin: 0 auto 24px auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 16px rgba(96, 205, 255, 0.2);
-        }
-
-        .logo-placeholder svg {
-            width: 32px;
-            height: 32px;
-            fill: #000;
-        }
-
-        h1 {
-            font-size: 28px;
-            font-weight: 600;
-            margin-bottom: 8px;
-            letter-spacing: -0.5px;
-        }
-
-        p {
-            color: var(--text-secondary);
-            font-size: 14px;
-            line-height: 1.5;
-            margin-bottom: 32px;
-        }
-
-        .btn-launch {
-            display: inline-block;
-            background: var(--accent);
-            color: #000000;
-            text-decoration: none;
-            padding: 10px 24px;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 14px;
-            transition: all 0.2s ease;
-            width: 100%;
-        }
-
-        .btn-launch:hover {
-            background: var(--accent-hover);
-            transform: scale(0.98);
-        }
-
-        @keyframes fadeUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="./apps/style.css" />
 </head>
 <body>
 
-    <div class="glass-card">
-        <div class="logo-placeholder">
-            <svg viewBox="0 0 24 24">
-                <path d="M3 3h8v8H3zm10 0h8v8h-8zM3 13h8v8H3zm10 0h8v8h-8z"/>
-            </svg>
+    <div class="app-container empty-state">
+        <div class="winget-box" style="max-width: 400px; width: 90%; text-align: center;">
+            
+            <div class="winget-header" style="font-size: 24px; margin-bottom: 24px;">
+                windowsbtw
+            </div>
+            
+            <a href="/apps" class="btn-primary" style="display: block; text-decoration: none; text-align: center;">
+                Launch App Library
+            </a>
+            
         </div>
-
-        <h1>windowsbtw</h1>
-   
-        <a href="/apps" class="btn-launch">Launch App Library</a>
     </div>
 
 </body>
