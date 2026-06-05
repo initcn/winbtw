@@ -1,95 +1,153 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apps Library</title>
+        <link rel="stylesheet" href="../style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apps Library</title>
-    <link rel="stylesheet" href="../style.css" />
-</head>
-
-<body>
-    <div class="app-container">
-        <aside class="sidebar">
-            <div class="top-bar">
-                <input type="text" id="search" placeholder="Search apps..." />
-            </div>
-
-            <div class="filter-bar">
-                <select id="category-filter">
-                    <option value="all">All Categories</option>
-                </select>
-            </div>
-
-            <details class="settings-bar">
-                <summary class="settings-header">
-                    <span>Install Options</span>
-                    <svg class="chevron" width="12" height="12" viewBox="0 0 16 16" fill="none">
-                        <path d="M2 5.5L8 11.5L14 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </summary>
-                <div class="toggle-grid">
-                    <label class="checkbox-label"><input type="checkbox" id="flag-silent" />
-                        <span>--silent</span></label>
-                    <label class="checkbox-label"><input type="checkbox" id="flag-disable-interact" />
-                        <span>--disable-interactivity</span></label>
-                    <label class="checkbox-label"><input type="checkbox" id="flag-exact" />
-                        <span>--exact</span></label>
-
-                    <label class="checkbox-label"><input type="checkbox" id="flag-force"> <span>--force</span></label>
-
-                </div>
-            </details>
-
-            <div class="global-actions">
-                <button class="btn-secondary" id="clear-btn" title="Clear Selection">
-                    Clear
-                </button>
-                <button class="btn-secondary" id="copy-all-btn" title="Copy All Commands">
-                    Copy
-                </button>
-                <button class="btn-secondary" id="export-ps1-btn" title="Export .ps1 Script">
-                    Export
-                </button>
-                <button class="btn-secondary" id="schema-btn" title="Download JSON Schema">
-                    Schema
-                </button>
-            </div>
-
-            <div id="app-list" class="app-list"></div>
-        </aside>
-
-        <main class="details">
-            <div id="empty-state" class="empty-state">
-                Select an app to view details
-            </div>
-
-            <div id="details-content" class="details-content hidden">
-                <h1 id="app-name"></h1>
-                <a id="app-link" href="#" target="_blank"></a>
-
-                <div class="meta">
-                    <span id="app-category"></span>
+    <body>
+        <div class="app-container">
+            <aside class="sidebar">
+                <div class="top-bar">
+                    <input
+                        type="text"
+                        id="search"
+                        placeholder="Search apps..."
+                    />
                 </div>
 
-                <p id="app-description"></p>
+                <div class="filter-bar">
+                    <select id="category-filter">
+                        <option value="all">All Categories</option>
+                    </select>
+                </div>
 
-                <div class="winget-box">
-                    <div class="winget-header">Windows Package Manager</div>
-                    <code id="winget-command"></code>
-                    <div class="winget-actions">
-                        <button class="btn-primary" id="select-btn">Add to List</button>
-                        <button class="btn-secondary" id="copy-btn">Copy</button>
+                <details class="settings-bar">
+                    <summary class="settings-header">
+                        <span>Install Options</span>
+                        <svg
+                            class="chevron"
+                            width="12"
+                            height="12"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                        >
+                            <path
+                                d="M2 5.5L8 11.5L14 5.5"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </summary>
+                    <div class="toggle-grid">
+                        <label class="checkbox-label"
+                            ><input type="checkbox" id="flag-silent" />
+                            <span>--silent</span></label
+                        >
+                        <label class="checkbox-label"
+                            ><input
+                                type="checkbox"
+                                id="flag-disable-interact"
+                            />
+                            <span>--disable-interactivity</span></label
+                        >
+                        <label class="checkbox-label"
+                            ><input type="checkbox" id="flag-exact" />
+                            <span>--exact</span></label
+                        >
+
+                        <label class="checkbox-label"
+                            ><input type="checkbox" id="flag-force" />
+                            <span>--force</span></label
+                        >
+                        <label class="checkbox-label"
+                            ><input
+                                type="checkbox"
+                                id="flag-accept-source-agreements"
+                            />
+                            <span>--accept-source-agreements</span></label
+                        >
+                        <label class="checkbox-label"
+                            ><input
+                                type="checkbox"
+                                id="flag-accept-package-agreements"
+                            />
+                            <span>--accept-package-agreements</span></label
+                        >
+                    </div>
+                </details>
+
+                <div class="global-actions">
+                    <button
+                        class="btn-secondary"
+                        id="clear-btn"
+                        title="Clear Selection"
+                    >
+                        Clear
+                    </button>
+                    <button
+                        class="btn-secondary"
+                        id="copy-all-btn"
+                        title="Copy All Commands"
+                    >
+                        Copy
+                    </button>
+                    <button
+                        class="btn-secondary"
+                        id="export-ps1-btn"
+                        title="Export .ps1 Script"
+                    >
+                        Export
+                    </button>
+                    <button
+                        class="btn-secondary"
+                        id="schema-btn"
+                        title="Download JSON Schema"
+                    >
+                        Schema
+                    </button>
+                </div>
+
+                <div id="app-list" class="app-list"></div>
+            </aside>
+
+            <main class="details">
+                <div id="empty-state" class="empty-state">
+                    Select an app to view details
+                </div>
+
+                <div id="details-content" class="details-content hidden">
+                    <h1 id="app-name"></h1>
+                    <a id="app-link" href="#" target="_blank"></a>
+
+                    <div class="meta">
+                        <span id="app-category"></span>
+                    </div>
+
+                    <p id="app-description"></p>
+
+                    <div class="winget-box">
+                        <div class="winget-header">Windows Package Manager</div>
+                        <code id="winget-command"></code>
+                        <div class="winget-actions">
+                            <button class="btn-primary" id="select-btn">
+                                Add to List
+                            </button>
+                            <button class="btn-secondary" id="copy-btn">
+                                Copy
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </main>
-    </div>
+            </main>
+        </div>
 
-    <div id="toast-container" class="toast-container"></div>
+        <div id="toast-container" class="toast-container"></div>
 
-    <script src="script.js"></script>
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
