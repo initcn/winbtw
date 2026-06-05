@@ -26,7 +26,7 @@ const DOM = {
     exact: document.getElementById("flag-exact"),
     force: document.getElementById("flag-force"),
     acceptsourceagreements: document.getElementById(
-      "flag-accept-source-aggrement",
+      "flag-accept-source-agreements",
     ),
     acceptpackageagreements: document.getElementById(
       "flag-accept-package-agreements",
